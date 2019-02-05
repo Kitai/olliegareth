@@ -1,0 +1,47 @@
+<head>
+<style>
+a {
+    font-size: large;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+}
+</style>
+<head>
+
+<p>Please click on the link below to validate your participation:</p>
+
+<p><a href="" id='link'>Click Here To Validate Your Participation</a></p>
+
+<script type='text/javascript'>
+var tryHref = function(){
+  let element = document.getElementById("link");
+  if (element===null)
+    return setTimeout(tryHref, 1);
+  switch (PennController.group) {
+   case '0':
+     element.href = 'https://app.prolific.ac/submissions/complete?cc=QUN7WIXO';
+     break;
+   case '1':
+     element.href = 'https://app.prolific.ac/submissions/complete?cc=IK37AY3H';
+     break;
+   case '2':
+     element.href = 'https://app.prolific.ac/submissions/complete?cc=JSFXYFZN';
+     break;
+   case '3':
+     element.href = 'https://app.prolific.ac/submissions/complete?cc=VH0PGQBG';
+     break;
+   case '4':
+     element.href = 'https://app.prolific.ac/submissions/complete?cc=XFAEJBS2';
+     break;
+   case '5':
+   default:
+     element.href = 'https://app.prolific.ac/submissions/complete?cc=P9J21276';
+     break;
+ }
+}
+    
+tryHref();
+</script>

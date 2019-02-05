@@ -1,0 +1,54 @@
+<head>
+<style>
+h2 {
+    font-size: medium;
+}
+textarea {
+    width: 40vw;
+    height: 8em;
+}
+p, textarea {
+    margin-bottom: 3em;
+}
+label.error {
+    display: block;
+}
+strong {
+    color: green;
+}
+</style>
+<head>
+  
+<p>Please answer these last questions before we can validate your participation.<br>
+<strong>A link to confirm your participation on Prolific.ac will appear on the next screen.</strong></p>
+
+<h2>What do you think the experiment was about?</h2>
+
+<label class="error" for="whatabout"></label>
+<textarea id='whatabout' name='whatabout'></textarea>
+
+
+<h2>Did you experience any problems or difficulties in doing the experiment (type "no" if not)?</h2>
+
+<label class="error" for="problems"></label>
+<textarea id='problems' name='problems' class="obligatory"></textarea>
+
+
+<h2>How confident were you in your answers in the second half of the experiment, where you were tested on Pinglish words?</h2>
+
+<label class="error" for="confidence"></label>
+<p>
+<label for='confidence-0'>Not confident</label>
+<input name='confidence' type='radio' id='confidence-0' value='0' class="obligatory" />
+<input name='confidence' type='radio' id='confidence-1' value='1' class="obligatory" />
+<input name='confidence' type='radio' id='confidence-2' value='2' class="obligatory" />
+<input name='confidence' type='radio' id='confidence-3' value='3' class="obligatory" />
+<input name='confidence' type='radio' id='confidence-4' value='4' class="obligatory" />
+<label for='confidence-4'>Confident</label>
+</p>
+
+
+<h2>Do you have anything else to add (including suggestions for improving the experiment or instructions)?</h2>
+
+<label class="error" for="suggestions"></label>
+<textarea id='suggestions' name='suggestions' class="obligatory"></textarea>

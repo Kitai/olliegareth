@@ -1,0 +1,28 @@
+.pltext, .sgtext, .sentence {
+  font-weight: bold;
+}
+.instructions {
+  font-style: italic;
+}
+.options .Text {
+  background-color: brown;
+  color: white;
+  font-family: sans-serif;  
+  width: 4em !important;
+  height: 1em !important;
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.consent-container, .Proceed-container, .submit-Container {
+  width: 100%;
+  text-align: center;
+}
+
+.consent, .Proceed, .submit {
+  padding: 1em;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: bold;
+}
